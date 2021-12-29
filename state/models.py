@@ -30,3 +30,4 @@ class State(models.Model):
 
     class Meta:
         db_table = 'state'
+        verbose_name_plural = 'States'

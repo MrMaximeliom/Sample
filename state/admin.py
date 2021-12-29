@@ -21,3 +21,6 @@ class StateAdmin(admin.ModelAdmin):
 
 
 admin.site.register(State,StateAdmin)
+admin.site.site_header = "Sample Admin"
+admin.site.site_title = "Sample Admin Portal"
+admin.site.index_title = "Welcome to Sample Portal"
